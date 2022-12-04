@@ -17,7 +17,7 @@ class FilterDataProvider: NEFilterDataProvider {
     // MARK: Properties
 
     // The TCP port which the filter is interested in.
-	static let localPort = "8888"
+	static let localPort = "9999"
 
     // MARK: NEFilterDataProvider
 
@@ -29,6 +29,7 @@ class FilterDataProvider: NEFilterDataProvider {
             let inboundNetworkRule = NENetworkRule(remoteNetwork: nil,
                                                    remotePrefix: 0,
                                                    localNetwork: localNetwork,
+//                                                   localNetwork: nil,
                                                    localPrefix: 0,
                                                    protocol: .TCP,
                                                    direction: .inbound)
