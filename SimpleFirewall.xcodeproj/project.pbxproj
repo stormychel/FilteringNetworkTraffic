@@ -301,9 +301,12 @@
 				CODE_SIGN_ENTITLEMENTS = SimpleFirewallExtension/SimpleFirewallExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = 4VYV5C3L3Y;
+				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SimpleFirewallExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -312,7 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SimpleFirewall${SAMPLE_CODE_DISAMBIGUATOR}.SimpleFirewallExtension";
 				PRODUCT_NAME = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -324,9 +327,12 @@
 				CODE_SIGN_ENTITLEMENTS = SimpleFirewallExtension/SimpleFirewallExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = 4VYV5C3L3Y;
+				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = SimpleFirewallExtension/Info.plist;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -335,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SimpleFirewall${SAMPLE_CODE_DISAMBIGUATOR}.SimpleFirewallExtension";
 				PRODUCT_NAME = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -465,7 +471,9 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = 4VYV5C3L3Y;
+				DSTROOT = /;
 				INFOPLIST_FILE = SimpleFirewall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,7 +496,9 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = 4VYV5C3L3Y;
+				DSTROOT = /;
 				INFOPLIST_FILE = SimpleFirewall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
